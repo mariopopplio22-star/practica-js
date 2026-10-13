@@ -3,7 +3,7 @@ const peliculas = {
   titulo: "Iron man",
   anio: 2008,
   idiomas: ["Inglés,", "Español", "Japonés", "Francés", "Portugues"],
-  duracionMin: 2,
+  duracionMin: 160,
   genero: ["Superhéroes", "Ciencia ficción"],
   preseupuesto: 140000000,
   recaudacion: 585796247,
@@ -15,6 +15,11 @@ const peliculas = {
     
   ],
   sinopsis: "Se trata de un multimillonario llamado Tony Stark que se ve obligado a construir un traje metálico para escapar de una cueva",
-  direccion: ["Jon Favreau"],
+  direccion: "Jon Favreau",
   escritores: ["Mark Fergus", "Hawk Ostby", "Art Marcum", "Matt Holloway"]
 }
+
+console.log("El nombre de la película es: ", peliculas.titulo);
+console.log("El director es: ", peliculas.direccion);
+console.log("Su presupuesto fue: ", peliculas.preseupuesto);
+console.log("Logró recaudar: ", peliculas.recaudacion);

@@ -2,11 +2,7 @@
 //Crear una funcion que reciba un arreglo de numeros y retorne como resultado
 //un objeto indicandonos cuantos valores son pares e impares
 
-function retornarNumero(numero){
-  return(numero % 2 == 0 ? "Par" : "Impar")
 
-}
-console.log(retornarNumero(100))
 //Test, demostracion, consola.log  
 
 //Funcion 2:
